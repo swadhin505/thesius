@@ -1,0 +1,33 @@
+/* style.css */
+
+/* Basic box styling */
+.box {
+    width: 100%;
+    height: 300px;
+    background-color: lightgray;
+    opacity: 0;
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+  
+  /* Fade-in animation */
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .box {
+    transform: translateY(20px); /* Initially shifted down */
+  }
+  
+  /* Text styling */
+  .visible-text {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .invisible-text {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+  }

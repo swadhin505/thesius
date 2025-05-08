@@ -1,0 +1,35 @@
+fastapi==0.115.4
+fastapi-cli==0.0.5
+fastapi[standard]
+fastapi-mail==1.4.2
+fastapi-cache==0.1.0
+fastapi-cache2==0.2.2
+redis==4.6.0
+SQLAlchemy==2.0.36
+passlib==1.7.4
+bcrypt==4.2.1
+python-jose==3.3.0
+nltk==3.9.1
+langchain-community==0.3.3
+tiktoken==0.8.0
+langchain==0.3.4
+streamlit==1.39.0
+transformers==4.44.2
+scikit-learn==1.5.2
+ipython==8.29.0
+bs4==0.0.2
+openai==1.56.0
+email-validator==2.2.0
+uvicorn[standard]==0.32.1
+torch --index-url https://download.pytorch.org/whl/cu118
+torchvision --index-url https://download.pytorch.org/whl/cu118
+torchaudio --index-url https://download.pytorch.org/whl/cu118
+itsdangerous==2.2.0
+pinecone-notebooks==0.1.1
+langchain-text-splitters==0.3.2
+langchain-openai==0.2.13
+langchain-pinecone==0.2.0
+pinecone-client==5.0.1
+pinecone[grpc]==5.3.1
+authlib==1.4.0
+pymongo[snappy]

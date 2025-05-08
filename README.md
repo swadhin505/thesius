@@ -1,1 +1,1 @@
-# thesius
+# Thesius.ai

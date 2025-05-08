@@ -1,0 +1,82 @@
+[
+  {
+    "display_name": "article",
+    "description": "Journal articles and conference articles, including original research and reviews of existing research"
+  },
+  {
+    "display_name": "book-chapter",
+    "description": "A single chapter within a book, sometimes containing original research"
+  },
+  {
+    "display_name": "dataset",
+    "description": "Records with information about one or more database records or collections"
+  },
+  {
+    "display_name": "preprint",
+    "description": "Articles whose primary version is one that precedes publication in a peer-reviewed journal or conference, or is hosted in a preprint repository"
+  },
+  {
+    "display_name": "dissertation",
+    "description": "Documents submitted by someone in completion of an academic degree or professional qualification"
+  },
+  {
+    "display_name": "book",
+    "description": "Scholarly books including reference books and monographs"
+  },
+  {
+    "display_name": "review",
+    "description": "A journal article that is a review work"
+  },
+  {
+    "display_name": "paratext",
+    "description": "Front-covers, back-covers, tables of contents, and other related records."
+  },
+  {
+    "display_name": "libguides",
+    "description": "Libguides"
+  },
+  {
+    "display_name": "letter",
+    "description": "Letters to the editors at journals, and other types of letters"
+  },
+  {
+    "display_name": "other",
+    "description": "Works from Crossref marked with type \"other\""
+  },
+  {
+    "display_name": "reference-entry",
+    "description": "Entries within reference materials, such as encyclopedias and dictionaries"
+  },
+  {
+    "display_name": "report",
+    "description": "Technical reports and working papers"
+  },
+  {
+    "display_name": "editorial",
+    "description": "Short works written by the editors of journals or other publications"
+  },
+  {
+    "display_name": "peer-review",
+    "description": "Reviews, reports, or comments about another work"
+  },
+  {
+    "display_name": "erratum",
+    "description": "Corrections of existing works"
+  },
+  {
+    "display_name": "standard",
+    "description": "Standards developed by Standards Development Organizations (SDOs) or consortia"
+  },
+  {
+    "display_name": "grant",
+    "description": "Works associated with research grants, which provide funding to support research"
+  },
+  {
+    "display_name": "retraction",
+    "description": "Works that have been retracted"
+  },
+  {
+    "display_name": "supplementary-materials",
+    "description": "Supplementary materials, figures, etc to journal articles"
+  }
+]

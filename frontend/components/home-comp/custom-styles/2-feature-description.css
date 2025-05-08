@@ -1,0 +1,73 @@
+/* Slide in from right */
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide in from left */
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide out to left */
+@keyframes slideOutToLeft {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+/* Slide out to right */
+@keyframes slideOutToRight {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+/* Default feature animation, no specific animation until a class is added */
+.feature-animation {
+  opacity: 0;
+}
+
+/* Slide in from right */
+.feature-animation.slide-in-right {
+  animation: slideInFromRight 1s ease forwards;
+}
+
+/* Slide in from left */
+.feature-animation.slide-in-left {
+  animation: slideInFromLeft 1s ease forwards;
+}
+
+/* Slide out to left */
+.feature-animation.slide-out-left {
+  animation: slideOutToLeft 1s ease forwards;
+}
+
+/* Slide out to right */
+.feature-animation.slide-out-right {
+  animation: slideOutToRight 1s ease forwards;
+}
+

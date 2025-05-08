@@ -1,0 +1,53 @@
+/* animations.css */
+
+/* Slide in from left */
+@keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Slide in from right */
+  @keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Slide out */
+  @keyframes slideOut {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+  
+  .slide-in-left {
+    opacity: 0;
+    animation: slideInFromLeft 1s ease forwards;
+  }
+  
+  .slide-in-right {
+    opacity: 0;
+    animation: slideInFromRight 1s ease forwards;
+  }
+  
+  .slide-out {
+    animation: slideOut 1s ease forwards;
+  }
+  
+  
